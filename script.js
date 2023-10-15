@@ -46,17 +46,17 @@ async function checkWeather(city) {
     // Convert the weather condition to lowercase for comparison
     const weatherCondition = data.weather[0].main.toLowerCase();
 
-    if (weatherCondition === "clouds") {
+    if (weatherCondition === "Clouds") {
         weatherIcon.src = "images/clouds.png";
-    } else if (weatherCondition === "clear") {
+    } else if (weatherCondition === "Clear") {
         weatherIcon.src = "images/clear.png";
-    } else if (weatherCondition === "rain") {
+    } else if (weatherCondition === "Rain") {
         weatherIcon.src = "images/rain.png";
-    } else if (weatherCondition === "snow") {
+    } else if (weatherCondition === "Snow") {
         weatherIcon.src = "images/snow.png";
-    } else if (weatherCondition === "drizzle") {
+    } else if (weatherCondition === "Drizzle") {
         weatherIcon.src = "images/drizzle.png";
-    } else if (weatherCondition === "mist") {
+    } else if (weatherCondition === "Mist") {
         weatherIcon.src = "images/mist.png";
     }
 
